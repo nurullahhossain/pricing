@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Global Css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.pricing-section {
+  height: 901px;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    rgba(255, 255, 255, 0) 0%,
+    #ffffff 100%
+  );
+}
+
+.container {
+  width: 1145px;
+  margin: 0 auto;
+}
+
+.section-title {
+  margin: 64px 0;
+}
+.section-title > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #22c55e;
+  width: 49px;
+  height: 18px;
+  background: #dcfce7;
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 36px;
+}
+.section-title > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+  color: #2a3342;
+}
+.section-title > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #556987;
+}
+.pricing-box-container {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.single-pricing-box {
+  width: 359px;
+  height: 505px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  background: #f7f8f9;
+  box-shadow: 0px 1px 2px rgba(85, 105, 135, 0.1);
+  border-radius: 6px;
+}
+.single-pricing-box > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  color: #22c55e;
+  width: 49px;
+  height: 18px;
+  background: #dcfce7;
+  box-shadow: 0px 1px 2px rgba(105, 81, 255, 0.05);
+  border-radius: 36px;
+  text-align: center;
+}
+.single-pricing-box > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #22c55e;
+}
+.single-pricing-box sup {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #2a3342;
+  text-align: center;
+}
+.single-pricing-box h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #2a3342;
+  text-align: center;
+}
+.single-pricing-box h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #8896ab;
+  text-align: center;
+}
+.single-pricing-box ul {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  color: #556987;
+}
+.single-pricing-box ul li i {
+  display: inline-block;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background: #22c55e;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: white;
+  border: 1.25px solid #16a34a;
+}
+button {
+  width: 295px;
+  height: 46px;
+  background: #22c55e;
+  box-shadow: 0px 1px 3px rgba(42, 51, 66, 0.06),
+    0px 1px 2px rgba(42, 51, 66, 0.03);
+  border-radius: 6px;
+  border: none;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  color: #f0fdf4;
+}
